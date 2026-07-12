@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #movies {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      #movies td,
+      #movies th {
+        border: 1px solid blueviolet;
+        padding: 8px;
+      }
+      #movies th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        background-color: darkorange;
+        color: black;
+      }
+      #movies tr:nth-child(even) {
+        background-color: aqua;
+      }
+      #movies tr:hover {
+        background-color: greenyellow;
+      }
+    </style>
+  </head>
+  <body>
+    <table id="movies">
+      <tr>
+        <th>영화</th>
+        <th>상영시간</th>
+        <th>개봉</th>
+      </tr>
+      <tr>
+        <td>블랙핑크</td>
+        <td>100분</td>
+        <td>2021.08.04 개봉</td>
+      </tr>
+      <tr>
+        <td>스파이더맨</td>
+        <td>80분</td>
+        <td>2022.07.29 개봉</td>
+      </tr>
+    </table>
+  </body>
+</html>
