@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      a {
+        font-size: 30px;
+      }
+      a:link {
+        color: cyan;
+      }
+      a:visited {
+        color: red;
+      }
+      a:hover {
+        color: blue;
+        font-weight: 900;
+      }
+      fieldset:hover {
+        background-color: lightgrey;
+        box-shadow: 0 0 20px grey;
+      }
+      a:active {
+        color: yellow;
+      }
+      input:focus {
+        outline: none;
+        border: 3px solid red;
+      }
+      .field {
+        margin-bottom: 1-0px;
+      }
+    </style>
+  </head>
+  <body>
+    <fieldset>
+      <legend>가상 클래스</legend>
+      <div>
+        <a href="https://www.naver.com">네이버</a>
+        <a href="https:www.kakao.com">카카오</a>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>focus, before, after</legend>
+      <div class="field">
+        <label for="name">이름</label>
+        <input type="text" id="name" />
+      </div>
+      <div class="field">
+        <label for="age">나이</label>
+        <input type="text" id="age" />
+      </div>
+      <button>보내기</button>
+    </fieldset>
+  </body>
+</html>
